@@ -1,0 +1,37 @@
+#include"HEADER.cpp"
+#include"function.cpp"
+
+void main()
+{
+	graphicset();
+	/*
+	lock();
+	setcolor(WHITE);
+	pass();
+	cleardevice();
+       graphic1();
+	cleardevice();
+	graphic2();
+	cleardevice();
+	graphic3();
+	cleardevice();
+*/
+	////////////////////////PROGRAM SIDE////////////////////////////////
+
+	cleardevice();
+	int ch ;
+	char abc ;
+	l1 :
+	gotoxy(3,4);
+	choice();
+	mainscreen();
+	cin>>ch;
+	program(ch);
+	getch();
+	cleardevice();
+	goto l1 ;
+
+
+	closegraph();
+
+}
